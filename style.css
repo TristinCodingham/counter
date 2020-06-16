@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: cornflowerblue;
+}
+
+main counter {
+    padding: 75px 150px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgb(74, 74, 204);
+}
+
+main counter h1 {
+    display: flex;
+    justify-content: center;
+}
+
+main counter div {
+    font-size: 3rem;
+    padding: 0 0 10px 0;
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+
+main counter button {
+    align-self: auto;
+    padding: .5rem .8rem;
+    border-radius: 7px;
+    border: 3px solid transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+main counter button {
+    background-color: cadetblue;
+    color: white;
+}
+
+#increase:hover {
+    background-color: lightgreen;
+}
+
+#decrease:hover {
+    background-color: crimson;
+}
+
+#reset:hover {
+    background-color: orange;
+}
